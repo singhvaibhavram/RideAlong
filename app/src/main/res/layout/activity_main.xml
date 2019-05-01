@@ -27,6 +27,7 @@
             android:textSize="14sp"
             android:textAlignment="center"
             android:textColor="@android:color/holo_green_light"
+            android:layout_marginTop="5dp"
             android:text="PARTNER"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -35,6 +36,7 @@
 
     <TextView
         android:textSize="12sp"
+        android:textAlignment="center"
         android:id="@+id/txt_rider_app"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
@@ -45,6 +47,36 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-    </TextView>
+    </TextView  >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_above="@+id/txt_rider_app"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginRight="6dp"
+            android:text="SIGN IN"
+            android:id="@+id/btnSignIn"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:background="@drawable/signin_background"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/register_background"
+            android:text="Register"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
 
 </RelativeLayout>
