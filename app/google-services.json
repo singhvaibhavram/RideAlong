@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "282848061135",
+    "firebase_url": "https://ride-along-e333b.firebaseio.com",
+    "project_id": "ride-along-e333b",
+    "storage_bucket": "ride-along-e333b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282848061135:android:4a27513d10b84012",
+        "android_client_info": {
+          "package_name": "com.example.ridealong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282848061135-hsngho2hdu21r6tec0ai8j1fg24vktka.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ridealong",
+            "certificate_hash": "7205132cca89950db5a37847b126b0acb02622ec"
+          }
+        },
+        {
+          "client_id": "282848061135-he4lak75hvuiqish7f93n8vh1v9qitjm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOdmn7GrrHW4cH5uqjHKhNCtjfAtOo6mI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282848061135-he4lak75hvuiqish7f93n8vh1v9qitjm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
